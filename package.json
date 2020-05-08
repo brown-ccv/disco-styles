@@ -1,0 +1,37 @@
+{
+  "name": "disco-styles",
+  "version": "0.0.1",
+  "description": "CSS framework based on Bulma for Disco Design System",
+  "main": "disco.scss",
+  "scripts": {
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/disco.css css/disco.css",
+    "build-clean": "rimraf css",
+    "build-cleancss": "cleancss -o css/disco.min.css css/disco.css",
+    "build-sass": "node-sass --output-style expanded --source-map true disco.scss css/disco.css",
+    "deploy": "npm run build",
+    "start": "npm run build-sass -- --watch"
+  },
+  "keywords": [
+    "scss",
+    "sass",
+    "css",
+    "styles",
+    "disco",
+    "ccv",
+    "brown",
+    "university"
+  ],
+  "author": "Fernando Gelin",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.8.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.13.1",
+    "postcss-cli": "^7.1.0",
+    "rimraf": "^3.0.2"
+  }
+}
