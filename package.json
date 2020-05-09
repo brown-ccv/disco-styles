@@ -11,7 +11,9 @@
     "build-sass": "node-sass --output-style expanded --source-map true disco.scss css/disco.css",
     "commit": "git-cz",
     "deploy": "npm run build",
-    "start": "npm run build-sass -- --watch"
+    "start": "npm run build-sass -- --watch",
+    "semantic-release": "semantic-release",
+    "changelog": "semantic-release --generate-notes --dry-run"
   },
   "keywords": [
     "scss",
