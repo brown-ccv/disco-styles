@@ -4,6 +4,8 @@ CSS Framework based on Bulma and Brown University Theme.
 
 ### Installation
 
-`npm install disco`
+`npm install @brown-ccv/disco-styles`
 
 ### Usage
+
+Coming soon.
