@@ -1,5 +1,5 @@
 {
-  "name": "disco-styles",
+  "name": "@brown-ccv/disco-styles",
   "version": "0.0.1",
   "description": "CSS framework based on Bulma for Disco Design System",
   "main": "disco.scss",
@@ -9,6 +9,7 @@
     "build-clean": "rimraf css",
     "build-cleancss": "cleancss -o css/disco.min.css css/disco.css",
     "build-sass": "node-sass --output-style expanded --source-map true disco.scss css/disco.css",
+    "commit": "git-cz",
     "deploy": "npm run build",
     "start": "npm run build-sass -- --watch"
   },
@@ -19,13 +20,19 @@
     "styles",
     "disco",
     "ccv",
-    "brown",
-    "university"
+    "brown university"
   ],
   "author": "Fernando Gelin",
   "license": "MIT",
   "dependencies": {
-    "bulma": "^0.8.2"
+    "bulma": "^0.8.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "git-cz": "^4.3.1",
+    "semantic-release": "^17.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brown-ccv/disco-styles.git"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.6",
@@ -33,5 +40,13 @@
     "node-sass": "^4.13.1",
     "postcss-cli": "^7.1.0",
     "rimraf": "^3.0.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

@@ -10,21 +10,6 @@ $variants: "yellow",
            "green-dark", 
            "green-darker";
 
-// $basics: "black", 
-//         "dark", 
-//         "white", 
-//         "light", 
-//         "black-bis", 
-//         "black-ter", 
-//         "grey-darker", 
-//         "grey-dark", 
-//         "grey", 
-//         "grey-light", 
-//         "grey-lighter", 
-//         "white-ter", 
-//         "white-bis";
-
-
 @each $variant in $variants {
     $color: --color-#{$variant};
     .has-background-#{$variant} {
@@ -34,13 +19,6 @@ $variants: "yellow",
         background-color: var($color) !important;
     }
 }
-
-// @each $variant in $basics {
-//     .has-text-#{$variant} {
-//         $color: --color-#{$variant};
-//         color: var($color) !important;
-//     }
-// }
 
 html {
     @extend .has-background-white;
