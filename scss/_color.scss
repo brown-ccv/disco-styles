@@ -20,11 +20,6 @@ $variants: "yellow",
     }
 }
 
-html {
-    @extend .has-background-white;
-}
-
-
 .color-container {
     display: flex;
     flex-direction: row;
