@@ -24,6 +24,13 @@
     "ccv",
     "brown university"
   ],
+  "files": [
+    "css",
+    "scss",
+    "assets",
+    "LICENSE",
+    "README.md"
+  ],
   "author": "Fernando Gelin",
   "license": "MIT",
   "dependencies": {
