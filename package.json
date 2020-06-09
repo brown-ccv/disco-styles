@@ -12,7 +12,7 @@
     "commit": "git-cz",
     "deploy": "npm run build",
     "start": "npm run build-sass -- --watch",
-    "semantic-release": "semantic-release",
+    "release": "semantic-release",
     "changelog": "semantic-release --generate-notes --dry-run"
   },
   "keywords": [
