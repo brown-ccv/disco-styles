@@ -1,13 +1,13 @@
 
-$variants: "yellow", 
-           "yellow-light", 
-           "yellow-lighter", 
-           "yellow-dark", 
+$variants: "yellow",
+           "yellow-light",
+           "yellow-lighter",
+           "yellow-dark",
            "yellow-darker",
-           "green", 
-           "green-light", 
-           "green-lighter", 
-           "green-dark", 
+           "green",
+           "green-light",
+           "green-lighter",
+           "green-dark",
            "green-darker";
 
 @each $variant in $variants {
