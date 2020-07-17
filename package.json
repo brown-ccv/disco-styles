@@ -1,6 +1,6 @@
 {
   "name": "@brown-ccv/disco-styles",
-  "version": "0.0.1",
+  "version": "2.1.0",
   "description": "CSS framework based on Bulma for Disco Design System",
   "main": "scss/disco.scss",
   "scripts": {
@@ -34,7 +34,7 @@
   "author": "Fernando Gelin",
   "license": "MIT",
   "dependencies": {
-    "bulma": "^0.8.2",
+    "bulma": "^0.9.0",
     "cz-conventional-changelog": "^3.2.0",
     "git-cz": "^4.3.1",
     "semantic-release": "^17.0.7"
