@@ -1,7 +1,8 @@
 .d-card {
+    @extend .py-4;
     display: flex;
     flex-direction: column;
     text-align: center;
     box-sizing: border-box;
-    box-shadow: var(--color-black-bis) 0px 0px 10px 0px;
+    box-shadow: var(--color-grey-lighter) 0px 0px 10px 0px;
   }

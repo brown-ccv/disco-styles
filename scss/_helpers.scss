@@ -5,19 +5,22 @@
 
 // Width
 .is-width-small {
-  width: 40vw;
+  width: 40ex;
   @include mobile {
     width: 60vw;
   }
 }
 .is-width-medium {
-  width: 60vw;
+  width: 60ex;
   @include mobile {
       width: 75vw;
   }
 }
 .is-width-large {
-  width: 90vw;
+  width: 90ex;
+  @include mobile {
+    width: 90vw;
+  }
 }
 
 
