@@ -4,11 +4,15 @@
 
 @import './node_modules/bulma/bulma.sass';
 
+@import 'helpers';
+
 @import 'button';
 @import 'border';
+@import 'card';
 @import 'color';
 @import 'dialog';
+@import 'expandable';
 @import 'hero';
 @import 'layout';
-@import 'sizes';
+@import 'toc';
 @import 'typography';
