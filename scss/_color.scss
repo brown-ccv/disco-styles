@@ -8,7 +8,10 @@ $variants: "yellow",
            "green-light",
            "green-lighter",
            "green-dark",
-           "green-darker";
+           "green-darker"
+           "light",
+           "dark"
+           ;
 
 @each $variant in $variants {
     $color: --color-#{$variant};
