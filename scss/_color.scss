@@ -32,7 +32,7 @@ $variants: "yellow",
     text-align: left;
     margin-bottom: 1rem;
     margin-right: 1rem;
-    @extend .has-background-light;
+    background-color: var(--color-grey-lighter);
   }
   .color {
     height: 10rem;
