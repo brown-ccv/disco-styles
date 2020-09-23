@@ -6,3 +6,10 @@
       align-self: center;
   }
 }
+
+.navbar-link {
+  color: var(--color-dark);
+  &:hover {
+    border: 1px solid $link;
+  }
+}

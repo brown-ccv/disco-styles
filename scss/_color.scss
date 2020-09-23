@@ -15,8 +15,9 @@ $variants: "yellow",
 
 @each $variant in $variants {
   .has-background-#{$variant} {
-      background-color: var(--color-#{$variant}) !important;
-  }
+      --current-bg: var(--color-#{$variant});
+      background-color: var(--current-bg) !important;
+      }
   .is-#{$variant} {
       background-color: var(--color-#{$variant}) !important;
   }
