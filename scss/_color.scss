@@ -8,20 +8,21 @@ $variants: "yellow",
            "green-light",
            "green-lighter",
            "green-dark",
-           "green-darker"
+           "green-darker",
            "light",
            "dark"
            ;
 
 @each $variant in $variants {
-    $color: --color-#{$variant};
-    .has-background-#{$variant} {
-        background-color: var($color) !important;
-    }
-    .is-#{$variant} {
-        background-color: var($color) !important;
-    }
+  .has-background-#{$variant} {
+      --current-bg: var(--color-#{$variant});
+      background-color: var(--current-bg) !important;
+      }
+  .is-#{$variant} {
+      background-color: var(--color-#{$variant}) !important;
+  }
 }
+
 
 .color-container {
     display: flex;
