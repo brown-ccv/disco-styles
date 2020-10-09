@@ -10,7 +10,18 @@ $variants: "yellow",
            "green-dark",
            "green-darker",
            "light",
-           "dark"
+           "dark",
+           "white",
+           "black",
+           "black-bis",
+           "black-ter",
+           "white-bis",
+           "white-ter",
+           "grey-lighter",
+           "grey-light",
+           "grey",
+           "grey-dark",
+           "grey-darker"
            ;
 
 @each $variant in $variants {
@@ -20,6 +31,9 @@ $variants: "yellow",
       }
   .is-#{$variant} {
       background-color: var(--color-#{$variant}) !important;
+  }
+  .has-text-#{$variant} {
+    color: var(--color-#{$variant}) !important;
   }
 }
 
