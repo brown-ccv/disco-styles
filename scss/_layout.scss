@@ -1,5 +1,30 @@
 .narrow-container {
-    padding-left: 20rem;
-    padding-right: 20rem;
-    padding-top: 8rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 8rem;
+}
+
+// Chart Container
+.chart-container {
+  @extend .box;
+  @extend .has-text-black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-x: scroll;
+}
+.chart-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  @extend .px-4;
+  @extend .py-4;
+  h2 {
+    @extend .has-text-black;
+  }
+}
+.chart {
+  padding: 0;
+  width: 100%;
 }

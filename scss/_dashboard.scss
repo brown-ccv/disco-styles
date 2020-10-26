@@ -1,0 +1,26 @@
+.dashboard-header {
+    grid-area: main-header;
+    border-bottom: 1px solid var(--color-grey);
+    @extend .px-4;
+    @extend .py-4;
+    @extend .has-text-dark;
+  }
+  .dashboard-nav {
+    grid-area: main-nav;
+    border-bottom: 1px solid var(--color-grey);
+    @extend .px-4;
+    @extend .py-4;
+    @extend .has-text-dark;
+  }
+  .dashboard-section {
+    grid-area: main-section;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    @extend .px-4;
+    @extend .py-4;
+    @extend .has-text-dark;
+    z-index: 20;
+  }
