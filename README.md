@@ -25,4 +25,6 @@ or
 
 ### Usage
 
-Coming soon.
+To support dark mode, ensure you use the `has-text-` and `has-background-` classes so that things invert properly.
+
+More Coming soon.
