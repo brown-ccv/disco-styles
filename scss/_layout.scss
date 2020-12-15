@@ -8,11 +8,14 @@
 .chart-container {
   @extend .box;
   @extend .has-text-black;
+  @extend .has-background-light;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   overflow-x: scroll;
+  box-sizing: border-box;
+  box-shadow: var(--color-grey-lighter) 0px 0px 10px 0px;
 }
 .chart-header {
   display: flex;
