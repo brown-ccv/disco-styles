@@ -1,5 +1,10 @@
 # Disco CSS mini-framework.
 
+![Static Badge](https://img.shields.io/badge/ARCHIVED-red)
+
+**This repo was archived February 2026, due to inactivity.**
+
+
 CSS Framework based on Bulma and Brown University Theme.
 
 ### Installation
